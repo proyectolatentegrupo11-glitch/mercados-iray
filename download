@@ -1,0 +1,13 @@
+# ============================================================
+#  MERCADOS IRAY · Variables de entorno (TODAS OPCIONALES)
+# ============================================================
+# La app funciona 100% sin internet usando el almacenamiento
+# del propio dispositivo (localStorage). Estas variables solo
+# se necesitan si quieres SINCRONIZAR el inventario en la nube
+# con Supabase (para compartirlo entre los celulares y PC).
+#
+# Si las dejas vacías, la app sigue funcionando offline.
+# ------------------------------------------------------------
+
+VITE_SUPABASE_URL=https://tu-proyecto.supabase.co
+VITE_SUPABASE_ANON_KEY=tu-anon-key-aqui
